@@ -1,42 +1,5 @@
-<?php
-
-use \enshrined\svgSanitize\data\AllowedTags;
-use PHPUnit\Framework\TestCase;
-
-/**
- * Class AllowedTagsTest
- */
-class AllowedTagsTest extends TestCase
-{
-
-    /**
-     * @var AllowedTags
-     */
-    protected $class;
-
-    /**
-     * Set up the test class
-     */
-    public function setUp()
-    {
-        $this->class = new AllowedTags();
-    }
-
-    /**
-     * Test that the class implements the interface
-     */
-    public function testItImplementsTheInterface()
-    {
-        $this->assertInstanceOf('enshrined\svgSanitize\data\TagInterface', $this->class);
-    }
-
-    /**
-     * Test that an array is returned
-     */
-    public function testThatItReturnsAnArray()
-    {
-        $result = AllowedTags::getTags();
-
-        $this->assertInternalType('array', $result);
-    }
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;PHPUnit\Framework\TestCase&quot; not found in C:\xampp\htdocs\wordpress\wp-content\plugins\auxin-elements\vendor\enshrined\svg-sanitize\tests\AllowedTagsTest.php:9
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\wordpress\wp-content\plugins\auxin-elements\vendor\enshrined\svg-sanitize\tests\AllowedTagsTest.php</b> on line <b>9</b><br>

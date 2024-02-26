@@ -1,15 +1,6 @@
-                                    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
-
-                                        <?php $attach =  wp_get_attachment_image_src(get_the_ID(), "full"); ?>
-                                        <div class="entry-media">
-                                            <a href="<?php echo esc_url( $attach[0] ); ?>">
-                                                <?php echo wp_get_attachment_image(get_the_ID(), "full", false, array( 'title' => get_the_excerpt() )); ?>
-                                            </a>
-                                        </div>
-
-                                        <div class="entry-main">
-                                            <div class="entry-content">
-                                                <?php echo get_the_content(); ?>
-                                            </div>
-                                        </div>
-                                    </article>
+<article id="post-<br />
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function the_ID() in C:\xampp\htdocs\wordpress\wp-content\themes\phlox\templates\theme-parts\entry\single-attachment.php:1
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\wordpress\wp-content\themes\phlox\templates\theme-parts\entry\single-attachment.php</b> on line <b>1</b><br />
+"></article>

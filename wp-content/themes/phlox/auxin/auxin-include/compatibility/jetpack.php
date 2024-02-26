@@ -1,23 +1,5 @@
-<?php
-/**
- * Jetpack Compatibility File
- * See: http://jetpack.me/
- *
- * 
- * @package    Auxin
- * @author     averta (c) 2014-2024
- * @link       http://averta.net
- */
-
-/**
- * Add theme support for Infinite Scroll.
- * See: http://jetpack.me/support/infinite-scroll/
- */
-function auxin_jetpack_setup() {
-    add_theme_support( 'infinite-scroll', array(
-        'container' => 'main',
-        'footer'    => 'page',
-    ) );
-}
-
-add_action( 'after_setup_theme', 'auxin_jetpack_setup' );
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function add_action() in C:\xampp\htdocs\wordpress\wp-content\themes\phlox\auxin\auxin-include\compatibility\jetpack.php:23
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\wordpress\wp-content\themes\phlox\auxin\auxin-include\compatibility\jetpack.php</b> on line <b>23</b><br>

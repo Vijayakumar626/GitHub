@@ -1,13 +1,5 @@
-<?php
-
-/**
- * Hide yoast seo admin notice
- */
-function auxin_hide_yoast_seo_admin_notice() {
-    if ( class_exists( 'WPSEO_Options' ) ) {
-        WPSEO_Options::set( 'ignore_indexation_warning', true );
-    }
-}
-add_action( 'admin_init', 'auxin_hide_yoast_seo_admin_notice' );
-
-?>
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function add_action() in C:\xampp\htdocs\wordpress\wp-content\plugins\auxin-elements\admin\includes\compatibility\yoast-seo\yoast-seo.php:11
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\wordpress\wp-content\plugins\auxin-elements\admin\includes\compatibility\yoast-seo\yoast-seo.php</b> on line <b>11</b><br>

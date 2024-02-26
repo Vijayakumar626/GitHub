@@ -1,25 +1,5 @@
-<?php
-/**
- * Defining Constants.
- *
- * 
- * @package    Auxin
- * @author     averta (c) 2014-2024
- * @link       http://averta.net
- */
-
-/*-----------------------------------------------------------------------------------*/
-/*  Define Global Vars
-/*-----------------------------------------------------------------------------------*/
-
-// theme name
-$theme_data = wp_get_theme();
-
-
-// this id is used as prefix in database option field names - specific for each theme
-if( ! defined('THEME_ID' )       ) define( 'THEME_ID'        ,  'phlox' );
-if( ! defined('THEME'.'_DOMAIN') ) define( 'THEME'.'_DOMAIN' ,  'phlox' );
-
-if( ! defined('THEME_NAME')      ) define( 'THEME_NAME'      , esc_attr( $theme_data->Name ) );
-
-/*-----------------------------------------------------------------------------------*/
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function wp_get_theme() in C:\xampp\htdocs\wordpress\wp-content\themes\phlox\auxin-content\init\constant.php:16
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\wordpress\wp-content\themes\phlox\auxin-content\init\constant.php</b> on line <b>16</b><br>

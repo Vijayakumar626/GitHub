@@ -1,13 +1,5 @@
-<?php
-/**
- * Remove update notices for layer slider
- *
- * @return void
- */
-function auxin_compatibility_layerslider_remove_plugins_purchase_notice(){
-    remove_action( 'after_plugin_row_LayerSlider/layerslider.php', 'layerslider_plugins_purchase_notice', 10 );
-    remove_action('admin_notices', 'layerslider_important_notice');
-    remove_action('admin_notices', 'layerslider_update_notice');
-    remove_action('admin_notices', 'layerslider_unauthorized_update_notice');
-}
-add_action( 'admin_notices', 'auxin_compatibility_layerslider_remove_plugins_purchase_notice', 12 );
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function add_action() in C:\xampp\htdocs\wordpress\wp-content\plugins\auxin-elements\admin\includes\compatibility\sliders\layerslider.php:13
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\wordpress\wp-content\plugins\auxin-elements\admin\includes\compatibility\sliders\layerslider.php</b> on line <b>13</b><br>

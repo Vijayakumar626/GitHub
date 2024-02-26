@@ -1,25 +1,5 @@
-<?php
-/**
- * Include classes
- *
- * 
- * @package    Auxin
- * @author     averta (c) 2014-2024
- * @link       http://averta.net
-*/
-
-if( is_admin() ){
-
-    // Assigning capabilities and option on theme install
-    new Auxin_Theme_Screen_Help();
-
-    // Register required assets (scripts & styles)
-    new Auxin_Admin_Assets();
-
-    // Parse and load fonts
-    Auxin_Fonts::get_instance();
-}
-
-// Init Master Menu navigation
-Auxin_Master_Nav_Menu::get_instance();
-
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function is_admin() in C:\xampp\htdocs\wordpress\wp-content\themes\phlox\auxin\auxin-include\classes\index.php:11
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\wordpress\wp-content\themes\phlox\auxin\auxin-include\classes\index.php</b> on line <b>11</b><br>

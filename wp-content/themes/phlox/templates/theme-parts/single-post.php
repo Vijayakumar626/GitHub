@@ -1,7 +1,5 @@
-<?php
-        while ( have_posts() ) : the_post();
-
-        locate_template('templates/theme-parts/entry/single-post.php', true );
-
-        endwhile; // end of the loop.
-?>
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function have_posts() in C:\xampp\htdocs\wordpress\wp-content\themes\phlox\templates\theme-parts\single-post.php:2
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\wordpress\wp-content\themes\phlox\templates\theme-parts\single-post.php</b> on line <b>2</b><br>

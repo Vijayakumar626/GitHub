@@ -1,46 +1,5 @@
-<?php
-/**
- * Generates CSS for a slider option
- *
- * 
- * @package    Auxin
- * @author     averta (c) 2014-2024
- * @link       http://averta.net
- *
- * Sample data model:
- * [
- *    'responsive-slider' => [
- *        '1024' => [
- *            'value' => 10,
- *            'unit'  => 'px'
- *        ],
- *        'desktop' => [
- *            'value' => 12,
- *            'unit'  => 'px'
- *        ]
- *    ]
- * ];
- */
-class Auxin_CSS_Generator_Option_Slider extends Auxin_CSS_Generator_Option_Base{
-
-
-    /**
-     * Crawls all breakpoints, generates and collects CSS roles
-     *
-     * @param  array $breakpoints  Lits of breakpoints
-     *
-     * @return void
-     */
-    protected function walk_breakpoints( $breakpoints ){
-        foreach( $breakpoints as $breakpoint => $breakpoint_values ){
-            $placeholder = $this->placeholder;
-
-            if( ! empty( $breakpoint_values['value'] ) ){
-                $placeholder = str_replace( '{{VALUE}}', $breakpoint_values['value'], $placeholder );
-                $placeholder = str_replace( '{{UNIT}}' , $breakpoint_values['unit'] , $placeholder );
-                $this->stack_css( $placeholder, $breakpoint );
-            }
-        }
-    }
-
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Auxin_CSS_Generator_Option_Base&quot; not found in C:\xampp\htdocs\wordpress\wp-content\themes\phlox\auxin\auxin-include\classes\class-auxin-css-generator-option-slider.php:24
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\wordpress\wp-content\themes\phlox\auxin\auxin-include\classes\class-auxin-css-generator-option-slider.php</b> on line <b>24</b><br>

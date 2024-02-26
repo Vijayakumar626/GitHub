@@ -1,29 +1,9 @@
-        <article class="media-land">
-            <?php  if( $show_media == true && $entry_media = auxin_get_the_post_thumbnail( null, 160, 160, true ) ) { ?>
-
-            <div class="entry-media">
-                <div class="aux-media-frame aux-media-image">
-                    <a href="<?php the_permalink(); ?>">
-                        <?php echo $entry_media; ?>
-                    </a>
-                </div>
-            </div>
-            <?php } if( $show_format ) { ?>
-            <div class="entry-format">
-                <a href="<?php the_permalink(); ?>" class="post-format format-<?php echo esc_attr( get_post_format() ); ?>"></a>
-            </div>
-            <?php } ?>
+<article class="media-land">
+            <br>
+<b>Warning</b>:  Undefined variable $show_media in <b>C:\xampp\htdocs\wordpress\wp-content\themes\phlox\templates\theme-parts\entry\widget-recent-post.php</b> on line <b>2</b><br>
+<br>
+<b>Warning</b>:  Undefined variable $show_format in <b>C:\xampp\htdocs\wordpress\wp-content\themes\phlox\templates\theme-parts\entry\widget-recent-post.php</b> on line <b>11</b><br>
             <div class="entry-info">
                 <header class="entry-header">
-                    <h4 class="entry-title"><a href="<?php the_permalink(); ?>"><?php echo auxin_get_trimmed_string( get_the_title(), 40, "..." ); ?></a></h4>
-                </header>
-
-                <div class="entry-content">
-                    <?php if($show_date != false ) { ?>
-                    <time datetime="<?php echo esc_attr( get_the_date( DATE_W3C ) ); ?>" title="<?php echo esc_attr( get_the_date( DATE_W3C ) ); ?>" ><?php echo get_the_date(); ?></time>
-                    <?php } if( $show_excerpt != false ) { ?>
-                    <p><?php auxin_the_trim_excerpt( null, (int) $excerpt_len, null, true ); ?></p>
-                    <?php } ?>
-                </div>
-            </div>
-        </article>
+                    <h4 class="entry-title"><a href="https://vijayakumar626.github.io/GitHub/wp-content/themes/phlox/templates/theme-parts/entry/<br />_<b>Fatal error</b>:  Uncaught Error: Call to undefined function the_permalink() in C:\xampp\htdocs\wordpress\wp-content\themes\phlox\templates\theme-parts\entry\widget-recent-post.php:18_Stack trace:_#0 {main}_  thrown in <b>C:\xampp\htdocs\wordpress\wp-content\themes\phlox\templates\theme-parts\entry\widget-recent-post.php</b> on line <b>18</b><br />"></a></h4></header>
+</div></article>

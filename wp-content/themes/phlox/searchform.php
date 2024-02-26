@@ -1,14 +1,6 @@
-<?php
-/**
- * The template for displaying search forms
- *
- * 
- * @package    Auxin
- * @author     averta (c) 2014-2024
- * @link       http://averta.net
-*/
-?>
-  <form method="get" id="searchform" class="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-    <input type="text" class="field" name="s" id="s" placeholder="<?php esc_attr_e( 'Search Here', 'phlox'); ?>" value="<?php the_search_query(); ?>" />
-    <input type="submit" class="submit" name="submit" id="searchsubmit" value="<?php esc_attr_e( 'Search', 'phlox'); ?>" />
-  </form>
+<form method="get" id="searchform" class="searchform" action="<br />
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function esc_url() in C:\xampp\htdocs\wordpress\wp-content\themes\phlox\searchform.php:11
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\wordpress\wp-content\themes\phlox\searchform.php</b> on line <b>11</b><br />
+"></form>

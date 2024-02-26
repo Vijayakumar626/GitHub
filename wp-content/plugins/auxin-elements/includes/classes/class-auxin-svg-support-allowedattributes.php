@@ -1,18 +1,5 @@
-<?php
-
-
-class Auxin_SVG_Support_AllowedAttributes extends \enshrined\svgSanitize\data\AllowedAttributes {
-
-	/**
-	 * Returns an array of attributes
-	 *
-	 * @return array
-	 */
-	public static function getAttributes() {
-
-		/**
-		 * var  array Attributes that are allowed.
-		 */
-		return apply_filters( 'svg_allowed_attributes', parent::getAttributes() );
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;enshrined\svgSanitize\data\AllowedAttributes&quot; not found in C:\xampp\htdocs\wordpress\wp-content\plugins\auxin-elements\includes\classes\class-auxin-svg-support-allowedattributes.php:4
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\wordpress\wp-content\plugins\auxin-elements\includes\classes\class-auxin-svg-support-allowedattributes.php</b> on line <b>4</b><br>

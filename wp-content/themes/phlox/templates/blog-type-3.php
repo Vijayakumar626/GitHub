@@ -1,11 +1,5 @@
-<?php
-/**
- * Template Name: Blog Archive 3
- *
- * 
- * @package    Auxin
- * @author     averta (c) 2014-2024
- * @link       http://averta.net
- */
-
-locate_template( 'templates/blog-main.php', true );
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function locate_template() in C:\xampp\htdocs\wordpress\wp-content\themes\phlox\templates\blog-type-3.php:11
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\wordpress\wp-content\themes\phlox\templates\blog-type-3.php</b> on line <b>11</b><br>
